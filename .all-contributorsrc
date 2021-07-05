@@ -1,0 +1,47 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "tamojit-123",
+      "name": "Tamojit Das",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40804626?v=4",
+      "profile": "https://tamojitdas.netlify.app",
+      "contributions": [
+        "code",
+        "design",
+        "doc",
+        "maintenance",
+        "blog"
+      ]
+    },
+    {
+      "login": "ImgBotApp",
+      "name": "Imgbot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31427850?v=4",
+      "profile": "https://imgbot.net",
+      "contributions": [
+        "review",
+        "tool"
+      ]
+    },
+    {
+      "login": "rattlecoder123",
+      "name": "Rattle Coder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22822936?v=4",
+      "profile": "http://tamojit.wixsite.com/mymusicmrtamojit",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "developerPortfolio",
+  "projectOwner": "tamojit-123",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
