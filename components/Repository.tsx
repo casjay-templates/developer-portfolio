@@ -11,14 +11,15 @@ interface RepositoryProps {
   stargazers_count: number;
   forks_count: number;
   avatar_url: string;
+  html_url: string;
 }
-export default function Repository({ name, description, language, isPrivate, stargazers_count, forks_count, avatar_url }: RepositoryProps) {
+export default function Repository({ name, html_url, description, language, isPrivate, stargazers_count, forks_count, avatar_url }: RepositoryProps) {
   return (
     <article className={tw`border border-gray-700  rounded-md p-4`}>
       <div className={tw`flex items-center justify-between`}>
         <img src={avatar_url} alt='' className={tw`w-16 h-16 aspect-square rounded-full`} />
         <span>
-          <a href={`/${name}`} className={tw`font-bold block flex-1 text-blue-400 hover:underline`}>
+          <a href={`${html_url}`} className={tw`font-bold block flex-1 text-blue-400 hover:underline`}>
             {name}
           </a>
         </span>

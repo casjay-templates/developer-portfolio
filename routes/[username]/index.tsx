@@ -88,6 +88,7 @@ export default function Greet({ data, params }: PageProps) {
 
         <div className={tw`mt-8`}>
           <div className={tw`flex items-center gap-4 flex-wrap`}>
+            <LinkButton href='javascript:history.back()' name='home' />
             {links.map((link) => (
               <LinkButton
                 key={link.name}
@@ -107,9 +108,5 @@ const links = [
   {
     name: 'Repositories',
     href: 'repositories',
-  },
-  {
-    name: 'Organizations',
-    href: 'organizations',
   },
 ];

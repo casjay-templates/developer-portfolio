@@ -17,6 +17,7 @@ interface Repository {
   stargazers_count: number;
   forks_count: number;
   avatar_url: string;
+  html_url: string;
 }
 export const handler: Handlers = {
   async GET(req, ctx) {
@@ -71,6 +72,7 @@ export default function Repositories({ data, params }: PageProps<{ repos: Reposi
               forks_count={repo.forks_count}
               description={repo.description}
               stargazers_count={repo.stargazers_count}
+              html_url={repo.html_url}
               key={repo.id}
             />
           ))}
